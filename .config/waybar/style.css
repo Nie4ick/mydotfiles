@@ -114,6 +114,7 @@ window#waybar.hidden {
 #memory,
 #backlight,
 #idle_inhibitor,
+#language,
 #pulseaudio,
 #network,
 #bluetooth,
@@ -146,6 +147,7 @@ window#waybar.hidden {
 #cpu:hover,
 #memory:hover,
 #backlight:hover,
+#language:hover,
 #pulseaudio:hover,
 #network:hover,
 #bluetooth:hover,
@@ -183,6 +185,10 @@ window#waybar.hidden {
     color: #f38ba8;
     background: rgba(243, 139, 168, 0.1);
     animation: blink 0.5s linear infinite alternate;
+}
+
+#language {
+    color: #a6e3a1;
 }
 
 #pulseaudio {

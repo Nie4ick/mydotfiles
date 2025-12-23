@@ -19,6 +19,7 @@
         "memory",
         "idle_inhibitor",
         "backlight",
+	"hyprland/language",
         "pulseaudio",
         "network",
         "bluetooth",
@@ -120,6 +121,13 @@
         "on-scroll-up": "brightnessctl set 5%+",
         "on-scroll-down": "brightnessctl set 5%-"
     },
+
+    "hyprland/language": {
+    	"format": "{}", // Displays current layout
+    	"format-en": "US",
+    	"format-ru": "RU"
+	},
+
     
     "pulseaudio": {
         "scroll-step": 5,
